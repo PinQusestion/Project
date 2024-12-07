@@ -1,7 +1,7 @@
-
 body{
     box-sizing: border-box;
-    margin-right: 0;
+    margin: 0;
+    padding-right: 50px;
     padding: 0;
     background-color: black;
     width: 100%;
@@ -56,6 +56,7 @@ button{
 .search-bar{
     display: flex;
     align-items: center;
+    margin: 0 auto;
     flex: 1;
 }
 .scroll-bar{
@@ -105,8 +106,6 @@ nav a{
 .vids{
     position: relative;
     display: flex;
-    white-space: nowrap;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
@@ -128,9 +127,9 @@ nav a{
 iframe{
     border: 1px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-left: 20px;
     height: auto;
-    width: auto;
+    width: 20%;
 }
 .line{
     width:100vw;
