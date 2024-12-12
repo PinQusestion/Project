@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 body{
-    box-sizing: border-box;
-    overflow: hidden;
-    width: Fixed (1,440px)px;
-    height: Hug (4,035px)px;
+    justify-self: center;
+    width: 1440px;
+    height: 4035px;
     min-height: 900px;
     top: -1387px;
     left: 309px;
@@ -10,8 +10,10 @@ body{
     gap: 0px;
     opacity: 0px;
     background: rgba(8, 15, 23, 1);
+    box-sizing: border-box;
 }
 nav{
+    justify-self: start;
     width: 1344px;
     height: 96px;
     gap: 8px;
@@ -19,6 +21,7 @@ nav{
     padding: 24px 32px 24px 32px;
     gap: 0px;
     opacity: 0px;
+    box-sizing: border-box;
 }
 .container_1{
     justify-self: center;
@@ -33,7 +36,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    /* padding: 0px 15px; */
+    padding: 0px 15px 0px 15px;
 }
 .container_1 p{
     color: rgba(214, 221, 230, 1);
@@ -45,7 +48,6 @@ nav{
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
 }
 .inner-div{
     display: flex;
@@ -66,7 +68,127 @@ nav{
     font-size: 42px;
     font-weight: 700;
     line-height: 42px;
-    letter-spacing: -0.04em;
+}
+.content{
+    width: 1344px;
+    height: 3771px;
+    padding: 48px 0px 48px 0px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(8, 15, 23, 1);
+}
+.first{
+    width: 1344px;
+    height: 1152px;
+    padding: 96px 0px;
+    gap: 48px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
+    color: rgba(214, 221, 230, 1);
+    size: 120px;
+}
+.first h1{
+    font-family : Plus Jakarta Sans;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.upper{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(214, 221, 230, 1);
+}
+.lower{
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(214, 221, 230, 0.62);
+}
+.second{
+    display: flex;
+    width: 1344px;
+    height: 429px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    box-sizing: border-box;
+}
+.second img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+}
+.third{
+    display: flex;
+    width: 1344px;
+    height: 381px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    box-sizing: border-box;
+}
+.third img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+}
+.fourth{
+    display: flex;
+    width: 1344px;
+    height: 381px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    box-sizing: border-box;
+}
+.fourth img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1,344px;
+    height: 400px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
+    color: rgba(214, 221, 230, 1);
+    box-sizing: border-box;
+}
+.fifth p{
+    width: 900px;
+    height: 208px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
