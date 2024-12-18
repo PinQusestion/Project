@@ -192,3 +192,44 @@ nav{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+footer{
+    display: flex;
+    width: 1,344px;
+    height: 168px;
+    padding: 96px 0px 24px 0px;
+    gap: 24px;
+    opacity: 0px;
+    align-items: flex-end;
+    border-top: 1px solid white;
+}
+.footer p{
+    color: rgba(214, 221, 230, 0.62);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.footer button{
+    height: 48px;
+    padding: 9px 24px 10px;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: inherit;
+    color: rgba(214, 221, 230, 1);
+    border-radius: 12px;
+    border-color: rgba(214, 221, 230, 0.2);
+}
+.footer{
+    width: 1344px;
+    height: 48px;
+    gap: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0px;
+    align-items: center;
+}
