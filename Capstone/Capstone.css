@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 body{
-    justify-self: center;
-    width: 100%;
+    width: 1440px;
+    height: 4035px;
+    min-height: 900px;
     top: -1387px;
     left: 309px;
     padding: 0px 48px 0px 48px;
